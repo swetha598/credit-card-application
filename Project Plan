@@ -1,0 +1,73 @@
+We will follow Agile methodology in order to deliver value to customers incrementally, be flexible and adapt to feedback
+
+Before Sprint 1:
+i. Draft product vision - Help banks with easier acquisition of customers
+ii. Create a business model canvas to identify key stakeholders, key partners, key activities, value propositions, customer segments, customer relationships, revenue streams and cost
+iii. Draft metrics that help to measure
+
+Every Sprint would be accompanied with Daily Scrum, Sprint Planning, Sprint Retrospective and Sprint Review events. 
+
+Sprint 1: Project Kickoff and Planning
+Duration: 2 weeks
+Goals:
+Gather requirements from stakeholders.
+Activities:
+Conduct project kickoff meeting.
+Create user stories and prioritize them in the product backlog.
+Define the MVP (Minimum Viable Product) for the credit card application journey.
+Assign roles and responsibilities within the team.
+Deliverables:
+Product backlog with prioritized user stories.
+Sprint backlog for Sprint 2.
+
+Sprint 2: Design and Wireframing
+Duration: 2 weeks
+Goals:
+Design wireframes for the application journey screens.
+Define the database schema and API specifications.
+Activities:
+Design wireframes for landing page, application form, verification screens, decision screens
+Define database schema for storing application data, user information, and account details.
+Document API specifications for integrating with identity verification, credit check, and fraud detection services.
+Deliverables:
+Wireframes for all screens.
+Database schema documentation.
+API specifications document.
+
+Sprint 3, 4, 5, 6, 7:Development and Testing
+Duration: 2 weeks each
+Goals:
+Implement frontend and backend functionality according to the defined specifications.
+Activities:
+Frontend development: Implement application screens based on wireframes.
+Backend development: Implement API endpoints, database integration, and business logic.
+Implement identity verification, credit eligibility, and fraud checks.
+Implement logging functionality.
+Conduct unit testing, integration testing, and user acceptance testing (UAT) concurrently with development tasks.
+Deliverables:
+Functional application with some level of validation and error handling.
+Backend system capable of processing credit card applications.
+Database created and available
+Test reports documenting test cases, test results, and any identified issues.
+
+Sprint 8: Deployment and Launch
+Duration: 2 weeks
+Goals:
+Prepare the application for production deployment.
+Launch the application and make it available to users.
+Activities:
+Finalize deployment configurations.
+Conduct production deployment.
+Monitor application performance and address any issues.
+Communicate the launch to stakeholders and users.
+Deliverables:
+Deployed and live application.
+Post-launch monitoring plan.
+
+
+Post-launch support would be an ongoing activity based on feedback received.
+
+
+
+
+
