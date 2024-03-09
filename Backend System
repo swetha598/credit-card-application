@@ -1,0 +1,69 @@
+1. Application Processing Module:
+API Calls:
+POST /applications: Submit a new credit card application.
+GET /applications/{id}: Retrieve details of a specific application.
+PUT /applications/{id}: Update application status or details.
+Data Fields for new application:
+Application ID
+Applicant Name
+Address
+Date of Birth
+PAN number
+Mobile number
+Email ID
+Employment Details
+Income
+Application Status (Pending/Approved/Declined/More Information Required) - updated with PUT call for that particular application ID
+
+2. Identity Verification Module:
+API Calls:
+GET /verifyIdentity: Verify the identity of the applicant.
+Data Fields:
+Document Type (PAN/Aadhar)
+Document Number
+Applicant Name
+Date of Birth
+Address
+Email
+Mobile number
+
+3. Credit Eligibility Check Module:
+API Calls:
+GET /creditScore: Retrieve the credit score of the applicant.
+Data Fields:
+Applicant Name
+PAN 
+Address
+Employment Details
+Income
+
+4. Fraud Detection and Sanctions Module:
+API Calls:
+GET /detectFraud & GET /sanctionsCheck: Detect potential fraud in the application.
+Data Fields:
+Applicant Name
+PAN
+Address
+Employment Details
+Income
+Credit Score
+Location 
+
+5. Decisioning Engine Module:
+API Calls:
+PUT /decisions/{id}: Update application status with decision.
+Data Fields:
+Application ID
+Decision (Approve/Decline/More Information Required)
+Reason for Decision
+Additional Information Required (if applicable)
+
+6. Account Booking Module:
+API Calls:
+POST /bookAccount: Book a new card account for approved applications.
+Data Fields:
+Application ID
+Account Number
+Credit Limit
+Annual Percentage Rate
+Fees
