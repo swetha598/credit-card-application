@@ -1,6 +1,6 @@
 Reports:
 Application conversion rates - Track the percentage of clicked ad banners that result in completed applications.
-Approval vs. decline rates - Measure the  of submitted applications that are approved
+Approval vs. decline rates - Measure the number of submitted applications that are approved
 Click Through Rate - number of clicks the ad receives
 Time to decision - Measure the cycle time for application decisioning
 Fraud detection - Report on how many fraudulent applications were received
@@ -15,3 +15,4 @@ Dashboards:
 Real-time monitoring of application status.
 Credit score distribution of applicants.
 Daily/Weekly/Monthly summaries of applications processed, approved, and declined.
+Revenue across various demographics 
