@@ -8,6 +8,7 @@ Credit score failures - Report how many applications were rejected due to credit
 Adoption of card by type - Measure the adoption rates of different card types by users ( such as Platinum, Millenial etc.) in order to find out the most popular and least popular cards
 Bounce Rate - to calculate the  of people that land on the Bank page but then leave.
 Demographics - Which locality audience do more ad clicks, at what time of the day do we see more ad clicks, what kind of people are applying more for credit cards (eg salaried or business)
+(If data can be shared by Amazon reg. customer purchases, buying behaviour etc., this data can be mined to target users with specific types of cards based on the analysis)
 EWOM - Measure using CLV Customer lifetime value, NPS Net Promoter Score, Referrals
 CAC - Measure Customer Acquisition Cost
 
